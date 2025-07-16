@@ -1,13 +1,11 @@
 
-import HeroLogo from './assets/logo.png'
 import { Link } from 'react-router-dom';
-const Head = () =>{
-    return<section className="header">
-        
-
-<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+import Herologo from './logo.png';
+function SignUp(){
+    return <section>
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
   <div class="container-fluid">
-    <a class="navbar-brand" href="/"><img src={HeroLogo} alt='' width={'150px'}></img></a>
+    <a class="navbar-brand" href="/"><img src={Herologo} alt='' width={'150px'}></img></a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
       <span className="navbar-toggler-icon"></span>
     </button>
@@ -39,21 +37,12 @@ const Head = () =>{
     </div>
   </div>
 </nav>
+<div className="top"></div>
 
-
-
-
-
-
-
-
-
-
-    <div className="page-header text-white">
-        
-
-    </div>
     </section>
+
 }
 
-export default Head;
+
+
+export default SignUp;

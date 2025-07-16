@@ -1,6 +1,7 @@
 import SocialLogin from "./components/SocialLogin";
 import InputField from "./components/InputField";
 import './index.css';
+import 'bootstrap/dist/css/bootstrap.css'
 import { Link } from "react-router-dom";
 const Login = () => {
 return(
